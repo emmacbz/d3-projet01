@@ -1,0 +1,85 @@
+header {
+  background: #1f1e1e;
+  padding:20px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+
+header a {
+  text-decoration: none;
+  color : #ff5d7f;
+  padding: 12px;
+  display: block;
+}
+
+#conteneur
+{  background: #1f1e1e;
+  padding:20px;
+  display: flex;
+  justify-content:space-around;
+}
+
+
+.conteneur1 ul {
+    list-style-type: none;
+    max-width: 640px;
+}
+
+.conteneur1 li {
+  display: inline-block;
+  border: 3px solid #fdd101;
+}
+
+.hero {
+  max-width: 1000px;}
+
+
+.conteneur1 a {
+  text-decoration: none;
+max-width: 640px;
+  color : #fdd101;
+  padding: 10px;
+  display: block;
+}
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: #fdd101;
+}
+
+.even {
+  background: #fa5272;
+}
+
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid #1f1e1e;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Monoton', serif;
+  font-style: italic;
+
+}
+
+footer {
+  min-height: 1000px;
+  background: #1f1e1e;
+  color : #fff;
+  display: flex;
+  justify-content: center;
+}
